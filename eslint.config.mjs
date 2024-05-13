@@ -19,7 +19,7 @@ export default [
         project: ['./tsconfig.json']
       }
     },
-    ignores: ['build/**/*', 'eslint.config.mjs', 'craco.config.js'],
+    ignores: ['build/**/*', 'eslint.config.mjs', 'craco.config.js', 'commitlint.config.js'],
     rules: {
       'no-unused-vars': 'error',
       'prefer-const': ['error'],

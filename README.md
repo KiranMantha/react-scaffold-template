@@ -85,3 +85,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Useful resources
+
+https://medium.com/@abpeter14/how-to-install-commitlint-husky-2024-f1157f14006f
