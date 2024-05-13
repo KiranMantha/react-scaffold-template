@@ -5,7 +5,8 @@
     "start": "env-cmd -f .env.local craco start",
     "build": "craco build",
     "serve": "env-cmd -f .env.prod serve -s build",
-    "test": "react-scripts test",
+    "test": "jest",
+    "test:coverage": "yarn test --coverage",
     "lint": "eslint \"{src,test}/**/*.{ts, tsx}\" --fix",
     "lint:ci": "rimraf eslint-report.json && eslint src --format json -o eslint-report.json || find eslint-report.json"
   },
@@ -45,9 +46,15 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^15.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "jest-multiple-result-processors": "^0.0.4",
     "react-app-alias": "^2.2.2",
     "rimraf": "^5.0.7",
-    "typescript-eslint": "^7.8.0",
-    "typescript": "^5.4.5"
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0"
   }
 }

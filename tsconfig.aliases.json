@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@env": ["src/env.ts"],
       "@atoms": ["src/libs/ui/atoms/index.ts"]
     }
   }
