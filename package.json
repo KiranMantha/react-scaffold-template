@@ -2,8 +2,9 @@
   "name": "react-scaffold-template",
   "version": "0.1.0",
   "scripts": {
-    "start": "env-cmd  -f .env.local craco start",
+    "start": "env-cmd -f .env.local craco start",
     "build": "craco build",
+    "serve": "env-cmd -f .env.prod serve -s build",
     "test": "react-scripts test",
     "lint": "eslint \"{src,test}/**/*.{ts, tsx}\" --fix",
     "lint:ci": "rimraf eslint-report.json && eslint src --format json -o eslint-report.json || find eslint-report.json"
@@ -46,6 +47,7 @@
     "globals": "^15.2.0",
     "react-app-alias": "^2.2.2",
     "rimraf": "^5.0.7",
+    "serve": "^14.2.3",
     "typescript-eslint": "^7.8.0"
   }
 }
