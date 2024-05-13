@@ -6,7 +6,9 @@
     "build": "craco build",
     "serve": "env-cmd -f .env.prod serve -s build",
     "test": "jest",
-    "test:coverage": "yarn test --coverage",
+    "test:snapshot": "yarn test --updateSnapshot",
+    "test:coverage": "yarn test --coverage --updateSnapshot --detectOpenHandles",
+    "test:clear": "jest --clearCache",
     "lint": "eslint \"{src,test}/**/*.{ts, tsx}\" --fix",
     "lint:ci": "rimraf eslint-report.json && eslint src --format json -o eslint-report.json || find eslint-report.json"
   },
