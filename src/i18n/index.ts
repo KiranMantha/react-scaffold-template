@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import { en, es } from './locales';
 
 const options = {
-  lng: 'es',
+  lng: 'en',
   resources: {
     es: {
       translation: es

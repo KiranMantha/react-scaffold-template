@@ -10,6 +10,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+button {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #4fc1e9;
+  border: 1px solid #4fc1e9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 input {
   padding: 8px;
   line-height: 14px;
