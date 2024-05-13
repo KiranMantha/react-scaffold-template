@@ -19,7 +19,8 @@ export default [
         project: ['./tsconfig.json']
       }
     },
-    ignores: ['build/**/*', 'eslint.config.mjs'],
+    extends: ['react-app', 'react-app/jest'],
+    ignores: ['build/**/*', 'eslint.config.mjs', 'craco.config.js'],
     rules: {
       'no-unused-vars': 'error',
       'prefer-const': ['error'],
