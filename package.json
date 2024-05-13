@@ -22,6 +22,17 @@
     ]
   },
   "dependencies": {
+    "env-cmd": "^10.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.3",
+    "web-vitals": "^3.5.2"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@eslint/js": "^9.2.0",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^15.0.7",
     "@testing-library/user-event": "^14.5.2",
@@ -29,17 +40,6 @@
     "@types/node": "^20.12.11",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "typescript": "^5.4.5",
-    "web-vitals": "^3.5.2"
-  },
-  "devDependencies": {
-    "@craco/craco": "^7.1.0",
-    "@craco/types": "^7.1.0",
-    "@eslint/js": "^9.2.0",
-    "env-cmd": "^10.1.0",
     "eslint": "^9.2.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.34.1",
@@ -47,7 +47,7 @@
     "globals": "^15.2.0",
     "react-app-alias": "^2.2.2",
     "rimraf": "^5.0.7",
-    "serve": "^14.2.3",
-    "typescript-eslint": "^7.8.0"
+    "typescript-eslint": "^7.8.0",
+    "typescript": "^5.4.5"
   }
 }

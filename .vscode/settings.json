@@ -6,6 +6,6 @@
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "jestrunner.jestCommand": "yarn test:snapshot",
+  "jestrunner.jestCommand": "yarn test",
   "jestrunner.enableYarnPnpSupport": true
 }
