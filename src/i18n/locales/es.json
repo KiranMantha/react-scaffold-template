@@ -1,0 +1,7 @@
+{
+  "buildMode": "modo de construcción: {{mode}}",
+  "changeLanguage": "Cambiar idioma a {{changeLanguage}}",
+  "edit": "Edite <code>src/App.tsx</code> y guárdelo para recargarlo.",
+  "en": "English",
+  "learnReact": "Aprender Reaccionar"
+}

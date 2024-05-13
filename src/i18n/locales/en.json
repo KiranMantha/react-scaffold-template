@@ -1,0 +1,7 @@
+{
+  "buildMode": "Build mode: {{mode}}",
+  "changeLanguage": "Change Language to {{changeLanguage}}",
+  "edit": "Edit <code>src/App.tsx</code> and save to reload.",
+  "es": "Spanish",
+  "learnReact": "Learn React"
+}

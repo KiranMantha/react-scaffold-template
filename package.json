@@ -10,7 +10,8 @@
     "test:coverage": "yarn test --coverage --updateSnapshot --detectOpenHandles",
     "test:clear": "jest --clearCache",
     "lint": "eslint \"{src,test}/**/*.{ts, tsx}\" --fix",
-    "lint:ci": "rimraf eslint-report.json && eslint src --format json -o eslint-report.json || find eslint-report.json"
+    "lint:ci": "rimraf eslint-report.json && eslint src --format json -o eslint-report.json || find eslint-report.json",
+    "sortjson": "sortjson src/i18n/locales"
   },
   "browserslist": {
     "production": [
@@ -26,8 +27,10 @@
   },
   "dependencies": {
     "env-cmd": "^10.1.0",
+    "i18next": "^23.11.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^14.1.1",
     "react-scripts": "5.0.1",
     "serve": "^14.2.3",
     "web-vitals": "^3.5.2"
@@ -53,6 +56,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-junit": "^16.0.0",
     "jest-multiple-result-processors": "^0.0.4",
+    "json-sort-cli": "^4.0.3",
     "react-app-alias": "^2.2.2",
     "rimraf": "^5.0.7",
     "ts-jest": "^29.1.2",
