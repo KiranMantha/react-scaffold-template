@@ -1,3 +1,4 @@
+import { Textbox } from '@atoms';
 import './App.css';
 import logo from './logo.svg';
 
@@ -13,6 +14,7 @@ function App() {
         <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
+        <Textbox placeholder="i'm texbox atom imported from @atoms" />
       </header>
     </div>
   );

@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@atoms": ["src/libs/ui/atoms/index.ts"]
+    }
   }
 }
