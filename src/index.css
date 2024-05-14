@@ -29,10 +29,18 @@ button {
 
 button.primary {
   background-color: #4fc1e9;
-  border: 1px solid #4fc1e9;
+  border: 1px solid #3bafda;
 }
 
 input {
   display: block;
   width: 100%;
+}
+
+.main-card {
+  max-width: 600px;
+  padding: 16px;
+  margin: 16px auto;
+  border: 1px solid #999;
+  border-radius: 4px;
 }
