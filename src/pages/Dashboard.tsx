@@ -1,9 +1,10 @@
+import { DashboardContainer } from '@components/dashboard';
 import { ErrorBoundary } from '@shared';
 
 const DashboardPage = () => {
   return (
     <ErrorBoundary>
-      <p>This is Dashboard page.</p>
+      <DashboardContainer />
     </ErrorBoundary>
   );
 };
