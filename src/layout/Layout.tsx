@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Outlet } from 'react-router-dom';
+import { StyledLayout } from './Layout.styles';
 
 const Layout = () => {
   const { t, i18n } = useTranslation();
@@ -14,7 +15,7 @@ const Layout = () => {
   };
 
   return (
-    <main>
+    <StyledLayout>
       <header>
         <nav>
           <ul>
@@ -28,11 +29,11 @@ const Layout = () => {
           </ul>
         </nav>
       </header>
-      <section>
+      <section className="container">
         <Outlet />
       </section>
       <footer>This is footer</footer>
-    </main>
+    </StyledLayout>
   );
 };
 
