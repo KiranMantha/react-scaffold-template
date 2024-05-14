@@ -21,9 +21,10 @@ export default [
     },
     ignores: ['build/**/*', 'eslint.config.mjs', 'craco.config.js', 'commitlint.config.js'],
     rules: {
-      'no-unused-vars': 'error',
+      'no-unused-vars': 'off',
       'prefer-const': ['error'],
       'react-hooks/exhaustive-deps': 'off',
+      '@typescript-eslint/no-unused-vars': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/no-unsafe-assignment': 'error',
       '@typescript-eslint/no-unsafe-call': 'error',
