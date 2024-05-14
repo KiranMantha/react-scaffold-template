@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@env": ["src/env.ts"],
-      "@atoms": ["src/libs/ui/atoms/index.ts"]
+      "@atoms": ["src/libs/ui/atoms/index.ts"],
+      "@shared": ["src/libs/components/shared/index.ts"]
     }
   }
 }
