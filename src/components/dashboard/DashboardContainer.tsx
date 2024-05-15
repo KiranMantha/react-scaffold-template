@@ -8,7 +8,12 @@ const DashboardContainer = () => {
     <>
       <p dangerouslySetInnerHTML={{ __html: t('edit') }}></p>
       <p>{t('buildMode', { mode: env.NODE_ENV })}</p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+      <a
+        style={{ '--color': 'red' } as React.CSSProperties}
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {t('learnReact')}
       </a>
       <Textbox placeholder="i'm texbox atom imported from @atoms" />
