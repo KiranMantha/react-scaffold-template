@@ -7,16 +7,22 @@ type Route = {
 
 enum PATHS {
   HOME = '/',
-  DASHBOARD = '/dashboard'
+  DASHBOARD = '/dashboard',
+  ADMIN = '/admin'
 }
 
 const Login = lazy(() => import('../pages/Login'));
 const Dashboard = lazy(() => import('../pages/Dashboard'));
+const Admin = lazy(() => import('../pages/Admin'));
 
 const layoutRoutes: Route[] = [
   {
     path: PATHS.DASHBOARD,
     page: Dashboard
+  },
+  {
+    path: PATHS.ADMIN,
+    page: Admin
   }
 ];
 

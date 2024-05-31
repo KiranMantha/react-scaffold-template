@@ -1,7 +1,7 @@
 import { PATHS } from '@routes';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { StyledLayout } from './Layout.styles';
 
 const Layout = () => {
@@ -21,7 +21,12 @@ const Layout = () => {
       <header>
         <nav>
           <ul>
-            <li>Dashboard</li>
+            <li>
+              <Link to={PATHS.DASHBOARD}>Dashboard</Link>
+            </li>
+            <li>
+              <Link to={PATHS.ADMIN}>Admin Console</Link>
+            </li>
             <li>
               <button className="primary" onClick={handleChangeLanguage}>
                 {t('changeLanguage', { changeLanguage: t(changeLanguage) })}
@@ -30,6 +35,7 @@ const Layout = () => {
             <li>
               <button
                 onClick={() => {
+                  localStorage.clear();
                   navigate(PATHS.HOME);
                 }}
               >

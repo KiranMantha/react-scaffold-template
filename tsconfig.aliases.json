@@ -6,7 +6,8 @@
       "@atoms": ["src/libs/ui/atoms/index.ts"],
       "@shared": ["src/components/shared/index.ts"],
       "@components/*": ["src/components/*"],
-      "@routes": ["src/routes/Routes.config.ts"]
+      "@routes": ["src/routes/Routes.config.ts"],
+      "@hoc": ["src/libs/hoc/index.ts"]
     }
   }
 }

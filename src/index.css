@@ -32,7 +32,7 @@ button.primary {
   border: 1px solid #3bafda;
 }
 
-input {
+input:not([type='checkbox']):not([type='radio']) {
   display: block;
   width: 100%;
 }

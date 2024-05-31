@@ -1,4 +1,5 @@
 import { DashboardContainer } from '@components/dashboard';
+import { withPageGuard } from '@hoc';
 import { ErrorBoundary } from '@shared';
 
 const DashboardPage = () => {
@@ -9,4 +10,4 @@ const DashboardPage = () => {
   );
 };
 
-export default DashboardPage;
+export default withPageGuard({ WrappedComponent: DashboardPage });
