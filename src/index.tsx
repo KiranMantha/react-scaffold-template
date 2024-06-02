@@ -6,7 +6,7 @@ import { i18n } from './i18n';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.body as HTMLElement);
+const root = ReactDOM.createRoot(document.getElementById('app') as HTMLElement);
 root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18n}>
